@@ -1,5 +1,7 @@
 import React from 'react';
 
+//Esta es la seccion principal de la pagina
+
 const Home = () => (
   <section className="activities">
     <div className="activity-card">

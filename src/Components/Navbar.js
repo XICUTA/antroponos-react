@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 
+// Esta es una barra de navegacion de la interfaz de la pagina
+
 const Navbar = () => (
   <header className="navbar">
     <div className="logo">

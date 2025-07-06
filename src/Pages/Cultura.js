@@ -1,5 +1,7 @@
 import React from 'react';
 
+//Esta es una seccion de la pagina correspondiente a cultura
+
 const Cultura = () => (
   <section className="cultural-sites">
     <div className="site-card">
