@@ -1,0 +1,127 @@
+/* Estilos globales */
+body {
+    font-family: League Spartan Thin;
+    background-color: #B8E3D7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navegación */
+.navbar {
+    background-color: #7dc4a7;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Sección de Actividades */
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    justify-content: center;
+}
+
+.activity-card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 950px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.activity-card img {
+    width: 100%; /* Ajusta el ancho al del contenedor */
+    height: 220px; /* Ajusta la altura al del contenedor */
+    object-fit: cover; /* Mantiene la escala de la imagen y la recorta si es necesario para llenar el contenedor */
+}
+
+.activity-info {
+    padding: 1em;
+}
+
+/* Sección de Lugares Culturales */
+.cultural-sites {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    justify-content: center;
+}
+
+.site-card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.site-card img {
+    width: 100%;
+    height: auto;
+}
+
+.site-info {
+    padding: 1em;
+}
+
+.site-info button {
+    background-color: #ffc107;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para el logo */
+.logo img {
+    height: 30px; /* Ajusta la altura según el tamaño de la barra de navegación */
+    width: auto;  /* Mantén la proporción del logo */
+    vertical-align: middle; /* Alinea verticalmente en el centro */
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* Estilo base para los enlaces de la barra */
+.navbar a {
+    color: #000; /* Color base del texto */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+/* Cambia el color cuando se pasa el puntero por encima */
+.navbar a:hover {
+    color: #ff6600; /* Color del texto al pasar el puntero */
+}
+
+/* Cambia el color cuando el enlace está activo o seleccionado */
+.navbar a:active {
+    color: #ff0000; /* Color del texto al hacer clic */
+}
